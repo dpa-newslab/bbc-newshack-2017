@@ -4,7 +4,7 @@ homepage: 2
 slug: what-we-planned
 navigation: what we planned
 title: what we planned
-img: img/logo.svg
+#img: img/logo.svg
 description: |
 ---
 
