@@ -2,8 +2,8 @@
 layout: default
 homepage: 6
 hash: about
-navigation: About
-title: About us
+navigation: about
+title: about us
 description: |
 ---
 https://de.linkedin.com/in/wolf-pauw-a847a2123/de
