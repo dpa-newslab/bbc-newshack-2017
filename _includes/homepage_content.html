@@ -36,8 +36,10 @@
 
             <div class="row" >
                 <div class="col-lg-5 col-lg-offset-1 col-sm-6 col-lg-push-5 col-sm-push-6">
-                  <h2 title="{{ item.path }}" class="section-heading"><a href="#{{ item.navigation | slugify}}">{{ item.title }}</a></h2>
-                  {% if item.img %}<img class="img-responsive" src="img/{{ item.img }}" alt="">{% endif %}
+                    <h2 class="section-heading"><a title="{{ item.path }}" href="#{{ item.navigation | slugify}}">
+                    {% if item.img %}<img class="img-responsive" src="{{ item.img }}" alt="{{ item.title }}">{% else %}{{ item.title }}{% endif %}
+                    </a></h2>
+                    <!-- <img class="img-responsive" src="img/services/{{ post.img }}" alt=""> -->
                 </div>
                 <div class="col-lg-5 col-sm-6 col-lg-pull-5 col-sm-pull-6">
                     <!-- <hr class="section-heading-spacer"> -->
