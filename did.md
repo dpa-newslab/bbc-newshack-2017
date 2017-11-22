@@ -1,10 +1,10 @@
 ---
 layout: default
 homepage: 3
-hash: what-we-did
-navigation: What we did
-title: What we did
+hash: our-solution
+navigation: Our solution
+title: Our solution
 description: |
 ---
 
-Platzhalter Projekt
+Combining the media monitoring of the **Summa database** AND our Social Media Monitoring Tool **BUZZRANK**
