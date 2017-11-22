@@ -6,8 +6,8 @@ navigation: About
 title: About us
 description: |
 ---
-
-We are Wolf, Martin & Alex from the German Press Agency in Hamburg.
+https://de.linkedin.com/in/wolf-pauw-a847a2123/de
+We are [Wolf](https://de.linkedin.com/in/wolf-pauw-a847a2123/de), [Martin](https://twitter.com/mvtango) & [Alex](https://twitter.com/_gobitodic) from the German Press Agency in Hamburg.
 
 <img src="img/group.jpg" width="350px">
 
