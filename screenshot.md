@@ -8,3 +8,4 @@ description: |
 ---
 
 <img src="img/screenshot_demo.png" width="400px">
+[Higher resolution](img/screenshot_demo.png)
