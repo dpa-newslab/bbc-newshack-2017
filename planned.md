@@ -11,4 +11,4 @@ description: |
 Brainstorming:
 
 
-<img src="img/brainstorming.jpg" width="400">
+<img src="img/brainstorming.JPG" width="400">
