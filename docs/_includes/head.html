@@ -1,0 +1,29 @@
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{{ "css/bootstrap.min.css"  | prepend: site.baseurl }}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{{ "css/landing-page.css"  | prepend: site.baseurl }}" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="{{ "font-awesome-4.1.0/css/font-awesome.min.css"  | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTNDODdFRjkxQTg1MTFFNkFDRjBGQjJBNUY1NTA2RkEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTNDODdFRkExQTg1MTFFNkFDRjBGQjJBNUY1NTA2RkEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1M0M4N0VGNzFBODUxMUU2QUNGMEZCMkE1RjU1MDZGQSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1M0M4N0VGODFBODUxMUU2QUNGMEZCMkE1RjU1MDZGQSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PrTtwmQAAAKJSURBVHja7JpLSFRRHIdnbo1llEgEBkoQgZBGFm6iB0nSA0toUWizbBEEKkTbaJdFmxbhwkWLNpELN2oGUdJCAheREhFEBVlqoIhCDx/h9B04yTDqzD3nTm7md+DjiPP/z+/cj/s4V4ynUqlYIY8gVuBDAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiRAAiSggEY88xf3B6+VMB2AUvgOb1qP3lvMdzA5W23O9v+VQ8YmphrYCVM24/eqAiguZ7oNTVCUVjNrPjaf0fwrD4syi7kFSdickdMB7eT8jJixjekmXIGStI/m4CHcIGNqWQANB5meQlmW730Np2icjrCwKqZnUJ6lbBhO/lugp+DnUJ2lbNRmfAhoMKd6T46DN6MWHkU85ftyHHzMXhZd1Mc9Msw9rTvHwZuxC3qpLzYN16EiZMZpms54OmiD3SFrT0CjR8ZFOByythKuGgGXHEOSngKS65DjnGEE7HFsqvI4NTcw7XVs2+8hoNqxfp/PPmCLR0/CY8+RWIe1JQL7+HEZn11Xxd12zj7rXcYXDwGfHOu/BvbO7DL6PO8BTxzrez0ynI8lsJufPyEbvtmNhM+4Awsha8fhgUdGJ0yGrDU7wrsBp+c7fmgJ0WB2gRcyt5IOl8FHuzNLhVhYE/U/PDJmmJphPkfpElymfjSwjZ32GbrWdToCR6gbirJFpd+cPedhbI2St3CMusEIGQNMdfA+yy7wLHWPV7wM8bgyd9FzcCjtZch84QANS3l8STHvAA02ZwdMwEt4ka8cMjYy1cPxtJehV9BPxvKlGNe/yekPIhIgARIgARIgARIgARIgARIgARIgARIgARIgARIgARIgAYUy/gowAD0rp5mdS0siAAAAAElFTkSuQmCC">
+        
+</head>

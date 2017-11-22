@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+    <script type="application/ld+json">
+    {{ content }}
+    </script>
+	<body>
+		{% include menu.html %}
+		{% include homepage_content.html %}
+        {% include about.html %}
+		{% include js.html %}
+	</body>
+</html>
