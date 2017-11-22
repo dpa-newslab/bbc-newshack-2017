@@ -9,7 +9,8 @@ description: |
 
 Wolf, Martin & Alex from the German Press Agency in Hamburg.
 We are working for the newslab of the dpa and Buzzrank, our own Social Media Monitoring Tool.
-![Newslab Logo](https://raw.githubusercontent.com/dpa-newslab/bbc-newshack-2017/master/img/newslab-logo-black.png){width="300px"}
+
+![Newslab Logo](https://raw.githubusercontent.com/dpa-newslab/bbc-newshack-2017/master/img/newslab-logo-black.png | width=100)
 
 
 ![Buzzrank Logo](https://raw.githubusercontent.com/dpa-newslab/bbc-newshack-2017/master/img/logo-dpa.png)
