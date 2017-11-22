@@ -9,4 +9,4 @@ description: |
 ---
 Brainstorming:
 
-<img alt="Brainstorming Idea" src="https://github.com/dpa-newslab/bbc-newshack-2017/blob/master/img/brainstorming.JPG" width="300">
+<img src="img/brainstorming.JPG" width="300">
