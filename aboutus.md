@@ -16,7 +16,6 @@ We are working for the newslab of the dpa and Buzzrank, our own Social Media Mon
 
 
 <img width="250" alt="Buzzrank Logo" src="https://raw.githubusercontent.com/dpa-newslab/bbc-newshack-2017/master/img/logo-dpa.png">
-twitter.com
 
 
 [@BuzzRank](https://twitter.com/buzzrank)
