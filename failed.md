@@ -16,7 +16,7 @@ So speaking about this - here are the tools:
 
 |   |Tool| Useful for |
 | --- | ----------------------------------- | ------------ |
-| <img src="img/Grafana.png" width="240px">  | [Grafana](https://grafana.com/)   | Everything that has timestamps. Can also visualize a [load of other data sources](http://docs.grafana.org/features/datasources/), like MySQL.|
-|   | [Facetview](https://github.com/okfn/facetview) | Excellent default search engine UI. Unknown if it is compatible with Elasticsearch 5.x |
+| <img src="img/Grafana.png" width="400px">  | [Grafana](https://grafana.com/)   | Everything that has timestamps. Can also visualize a [load of other data sources](http://docs.grafana.org/features/datasources/), like MySQL.|
+| <img src="img/Facetview.png" width="400px">   | [Facetview](https://github.com/okfn/facetview) | Excellent default search engine UI. Unknown if it is compatible with Elasticsearch 5.x |
 
 
