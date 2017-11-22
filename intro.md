@@ -2,8 +2,8 @@
 layout: default
 homepage: 1
 slug: intro
-navigation: Intro
-title: The Problem
+navigation: the problem
+title: the problem
 description: |
 ---
 
