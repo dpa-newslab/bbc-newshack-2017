@@ -1,9 +1,9 @@
 ---
 layout: default
-homepage: 5
+homepage: 4
 hash: what-we-built
 navigation: what we built
-title: What we built
+title: what we built
 description: |
 ---
 

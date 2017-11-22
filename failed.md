@@ -1,9 +1,9 @@
 ---
 layout: default
-homepage: 4
+homepage: 5
 hash: where-we-failed
-navigation: Where we failed
-title: Where we failed
+navigation: where we failed
+title: where we failed
 description: |
 ---
 
