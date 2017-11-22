@@ -7,6 +7,8 @@ title: What we planned
 img: img/logo.svg
 description: |
 ---
+
 Brainstorming:
 
-<img src="img/brainstorming.JPG" width="300">
+
+<img src="img/brainstorming.JPG" width="400">
