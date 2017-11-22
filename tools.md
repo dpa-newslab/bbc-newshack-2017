@@ -23,9 +23,9 @@ So below here's what we'd have liked to use. Some of these tools are used for pr
 
 |   |Tool| Useful for |
 | --- | ----------------------------------- | ------------ |
-| <img src="../img/Grafana.png" width="400px">  | [Grafana](https://grafana.com/)   | Everything that has timestamps. Can also visualize a [load of other data sources](http://docs.grafana.org/features/datasources/), like MySQL.|
-| <img src="../img/Facet_view.png" width="400px">   | [Facetview](https://github.com/okfn/facetview) | Excellent search engine UI by the Open Knowledge Foundation. Unknown if it is compatible with Elasticsearch 5.x |
-| <img src="../img/elasticsearch-head.png" width="400px">   | [Elasticsearch-head](https://github.com/mobz/elasticsearch-head) | Browser Plugin to compose Elasticserarch queries and do other interesting stuff |
+| <img src="{{ site.baseurl }}/img/Grafana.png" width="400px">  | [Grafana](https://grafana.com/)   | Everything that has timestamps. Can also visualize a [load of other data sources](http://docs.grafana.org/features/datasources/), like MySQL.|
+| <img src="{{ site.baseurl }}/img/Facet_view.png" width="400px">   | [Facetview](https://github.com/okfn/facetview) | Excellent search engine UI by the Open Knowledge Foundation. Unknown if it is compatible with Elasticsearch 5.x |
+| <img src="{{ site.baseurl }}/img/elasticsearch-head.png" width="400px">   | [Elasticsearch-head](https://github.com/mobz/elasticsearch-head) | Browser Plugin to compose Elasticserarch queries and do other interesting stuff. We got it to work with the hackathon elasticsearch index using a silly [post-to-get-proxy](post-to-get/). |
 
 
 ## The Future
@@ -34,6 +34,6 @@ We've come across some tools that we'd like to explore:
 
 |   |Prospect| Might be useful because |
 | --- | ----------------------------------- | ------------ |
-| <img src="../img/Searchkit.png" width="400px">   | [SearchKit](http://www.searchkit.co/) | A bunch of `react.js` components to build something on Elasticsearch - and some of us already know `react.js`. |
-| <img src="../img/Kibana.png" width="400px">   | [Kibana](https://www.elastic.co/products/kibana) | The original from the guys who brought you Elasticsearch. Maybe they know best ;-) |
+| <img src="{{ site.baseurl }}/img/Searchkit.png" width="400px">   | [SearchKit](http://www.searchkit.co/) | A bunch of `react.js` components to build something on Elasticsearch - and some of us already know `react.js`. |
+| <img src="{{ site.baseurl }}/img/Kibana.png" width="400px">   | [Kibana](https://www.elastic.co/products/kibana) | The original from the guys who brought you Elasticsearch. Maybe they know best ;-) |
 
