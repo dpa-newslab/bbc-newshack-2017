@@ -1,9 +1,9 @@
 ---
 layout: default
 homepage: 3
-hash: our-solution
-navigation: Our solution
-title: Our solution
+hash: what-we-wanted
+navigation: what we wanted
+title: what we wanted
 description: |
 ---
 
