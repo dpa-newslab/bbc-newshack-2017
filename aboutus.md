@@ -1,6 +1,6 @@
 ---
 layout: default
-homepage: 5
+homepage: 6
 hash: about
 navigation: About
 title: About us
