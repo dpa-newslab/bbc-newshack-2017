@@ -1,6 +1,6 @@
 ---
 layout: default
-homepage: 6
+homepage: 5
 hash: what-we-built
 navigation: what we built
 title: What we built
