@@ -5,7 +5,18 @@ title: 'Elasticsearch Tools'
 description: |
 ---
 
-We had some great tools in mind that can be used with Elasticsearch - some of them are used for prototypes at the dpa newslab, like [Grafana](https://grafana.com/) and [Facetview](https://github.com/okfn/facetview). The beauty of these tools is that they are almost plug-and-play. After, say, 30 Minutes of configuration you can just explore your Elasticsearch. Below is a reference of those tools - the ones we found and tried and the ones we'd like to explore in the future.
+As a coding journalists, our first impulse is not to code, but to look around for tools that can be plugged together to explore the data and learn from there. 
+
+Due to the restrictions for the #newsHack, none of the tools on this page could be used right off the bat. The hackathon organizers were very forthcoming, completely open to lifting the restrictions as soon as we asked, but it was not possible.
+
+Or suggestion for future hackathons would be to think very hard about this and see why these restrictions are necessary in the first place, and if there is a way around this. 
+
+Specifically, think about:
+
+  - enabling CORS from the start
+  - not limiting the API to GET requests (finding other ways to write-protect the Elasticsearch index) 
+
+So below here's what we'd have liked to use. Some of these tools are used for prototypes at the dpa newslab, like [Grafana](https://grafana.com/) and [Facetview](https://github.com/okfn/facetview). The beauty of these tools is that they are almost plug-and-play. After, say, 30 Minutes of configuration you can just explore your Elasticsearch. Below is a reference of those tools - the ones we found and tried and the ones we'd like to explore in the future.
 
 |   |Tool| Useful for |
 | --- | ----------------------------------- | ------------ |
